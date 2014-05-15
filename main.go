@@ -34,6 +34,7 @@ func productionConfig() *bot.Config {
 		Nick:     os.Getenv("IRC_NICK"),
 		Password: os.Getenv("IRC_PASSWORD"),
 		UseTLS:   true,
+		Debug:    os.Getenv("DEBUG") != "",
 	}
 }
 
@@ -44,5 +45,6 @@ func developmentConfig() *bot.Config {
 		User:     "go-bot-dev",
 		Nick:     "go-bot-dev",
 		UseTLS:   true,
+		Debug:    true,
 	}
 }
