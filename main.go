@@ -5,6 +5,7 @@ import (
 	_ "github.com/fabioxgn/go-bot/commands/cotacao"
 	_ "github.com/fabioxgn/go-bot/commands/example"
 	_ "github.com/fabioxgn/go-bot/commands/gif"
+	_ "github.com/fabioxgn/go-bot/commands/jira"
 	_ "github.com/fabioxgn/go-bot/commands/megasena"
 	"log"
 	"os"
