@@ -1,6 +1,6 @@
 language: go
 go:
-  - 1.2
+  - tip
 notifications:
   irc: chat.freenode.net#go-bot
 deploy:
