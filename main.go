@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/fabioxgn/go-bot"
 	_ "github.com/fabioxgn/go-bot/commands/catfacts"
+	_ "github.com/fabioxgn/go-bot/commands/catgif"
 	_ "github.com/fabioxgn/go-bot/commands/chucknorris"
 	_ "github.com/fabioxgn/go-bot/commands/cotacao"
 	_ "github.com/fabioxgn/go-bot/commands/example"
