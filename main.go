@@ -45,7 +45,7 @@ func productionConfig() *bot.Config {
 
 func developmentConfig() *bot.Config {
 	return &bot.Config{
-		Server:   "irc.freenode.org:7000",
+		Server:   "irc.freenode.net:6697",
 		Channels: []string{"#go-bot"},
 		User:     "go-bot-dev",
 		Nick:     "go-bot-dev",
