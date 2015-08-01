@@ -12,6 +12,7 @@ import (
 	_ "github.com/fabioxgn/go-bot/commands/megasena"
 	_ "github.com/fabioxgn/go-bot/commands/puppet"
 	_ "github.com/fabioxgn/go-bot/commands/url"
+	_ "github.com/fabioxgn/go-bot/commands/dilma"
 	"log"
 	"os"
 	"strings"
