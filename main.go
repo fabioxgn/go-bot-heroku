@@ -1,21 +1,22 @@
 package main
 
 import (
-	"github.com/fabioxgn/go-bot"
-	_ "github.com/fabioxgn/go-bot/commands/catfacts"
-	_ "github.com/fabioxgn/go-bot/commands/catgif"
-	_ "github.com/fabioxgn/go-bot/commands/chucknorris"
-	_ "github.com/fabioxgn/go-bot/commands/cotacao"
-	_ "github.com/fabioxgn/go-bot/commands/example"
-	_ "github.com/fabioxgn/go-bot/commands/gif"
-	_ "github.com/fabioxgn/go-bot/commands/godoc"
-	_ "github.com/fabioxgn/go-bot/commands/megasena"
-	_ "github.com/fabioxgn/go-bot/commands/puppet"
-	_ "github.com/fabioxgn/go-bot/commands/url"
-	_ "github.com/fabioxgn/go-bot/commands/dilma"
 	"log"
 	"os"
 	"strings"
+
+	"github.com/fabioxgn/go-bot"
+	_ "github.com/go-chat-bot/plugins/catfacts"
+	_ "github.com/go-chat-bot/plugins/catgif"
+	_ "github.com/go-chat-bot/plugins/chucknorris"
+	_ "github.com/go-chat-bot/plugins/cotacao"
+	_ "github.com/go-chat-bot/plugins/dilma"
+	_ "github.com/go-chat-bot/plugins/example"
+	_ "github.com/go-chat-bot/plugins/gif"
+	_ "github.com/go-chat-bot/plugins/godoc"
+	_ "github.com/go-chat-bot/plugins/megasena"
+	_ "github.com/go-chat-bot/plugins/puppet"
+	_ "github.com/go-chat-bot/plugins/url"
 )
 
 func main() {

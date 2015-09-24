@@ -22,3 +22,6 @@ _testmain.go
 *.exe
 *.test
 go-bot-heroku
+
+# vim swap files
+*.swp
