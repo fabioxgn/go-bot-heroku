@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fabioxgn/go-bot"
+	"github.com/go-chat-bot/bot/irc"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
@@ -22,10 +22,10 @@ import (
 func main() {
 	config := newConfig()
 	log.Printf("%v\n", config)
-	bot.Run(config)
+	irc.Run(config)
 }
 
-func newConfig() *bot.Config {
+func newConfig() *irc.Config {
 	if os.Getenv("ENV") == "production" {
 		return productionConfig()
 	} else {
@@ -34,8 +34,8 @@ func newConfig() *bot.Config {
 
 }
 
-func productionConfig() *bot.Config {
-	return &bot.Config{
+func productionConfig() *irc.Config {
+	return &irc.Config{
 		Server:   os.Getenv("IRC_SERVER"),
 		Channels: strings.Split(os.Getenv("IRC_CHANNELS"), ","),
 		User:     os.Getenv("IRC_USER"),
@@ -46,8 +46,8 @@ func productionConfig() *bot.Config {
 	}
 }
 
-func developmentConfig() *bot.Config {
-	return &bot.Config{
+func developmentConfig() *irc.Config {
+	return &irc.Config{
 		Server:   "irc.freenode.net:6697",
 		Channels: []string{"#go-bot"},
 		User:     "go-bot-dev",
