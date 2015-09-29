@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-chat-bot/bot/irc"
+	"github.com/go-chat-bot/bot/telegram"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
@@ -20,6 +21,8 @@ import (
 )
 
 func main() {
+	go telegram.Run(os.Getenv("TELEGRAM_TOKEN"), os.Getenv("DEBUG") != "")
+
 	config := newConfig()
 	log.Printf("%v\n", config)
 	irc.Run(config)
