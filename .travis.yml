@@ -9,4 +9,5 @@ deploy:
   api_key:
     secure: N7xBYOWytRDfa/OIP3fOG5VUY4f5fg3VwcJqjwIgISJz24fdc635bZ8S/4vP1jEMw6zjn1Om0sKW8MtOH+4wnex6R3qBK3gslj4gXK9NdCwTwvuKb/TWVnerQzCMQqC96bAKNwsCdxSJFwhLJMCZweEJ3NoYkpMcm9B3zOWO1Is=
   app: go-irc-bot
-  on: master 
+  on: master
+sudo: false
