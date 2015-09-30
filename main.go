@@ -17,6 +17,9 @@ import (
 	_ "github.com/go-chat-bot/plugins/megasena"
 	_ "github.com/go-chat-bot/plugins/puppet"
 	_ "github.com/go-chat-bot/plugins/url"
+	_ "github.com/go-chat-bot/plugins/guid"
+	_ "github.com/go-chat-bot/plugins/cpf"
+	_ "github.com/go-chat-bot/plugins/cnpj"
 )
 
 func main() {
