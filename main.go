@@ -20,6 +20,7 @@ import (
 	_ "github.com/go-chat-bot/plugins/guid"
 	_ "github.com/go-chat-bot/plugins/cpf"
 	_ "github.com/go-chat-bot/plugins/cnpj"
+	_ "github.com/go-chat-bot/plugins/encoding"
 )
 
 func main() {
