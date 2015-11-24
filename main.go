@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-chat-bot/bot/irc"
+	"github.com/go-chat-bot/bot/slack"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
@@ -28,7 +29,8 @@ import (
 func main() {
 	config := newConfig()
 	log.Printf("%v\n", config)
-	irc.Run(config)
+	go irc.Run(config)
+	slack.Run(os.Getenv("SLACK_TOKEN"))
 }
 
 func newConfig() *irc.Config {
