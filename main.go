@@ -7,6 +7,7 @@ import (
 
 	"github.com/go-chat-bot/bot/irc"
 	"github.com/go-chat-bot/bot/slack"
+	"github.com/go-chat-bot/bot/telegram"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
@@ -30,6 +31,7 @@ func main() {
 	config := newConfig()
 	log.Printf("%v\n", config)
 	go irc.Run(config)
+	go telegram.Run(os.Getenv("TELEGRAM_TOKEN"), os.Getenv("DEBUG") != "")
 	slack.Run(os.Getenv("SLACK_TOKEN"))
 }
 
