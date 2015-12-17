@@ -21,6 +21,7 @@ import (
 	_ "github.com/go-chat-bot/plugins/gif"
 	_ "github.com/go-chat-bot/plugins/godoc"
 	_ "github.com/go-chat-bot/plugins/guid"
+	_ "github.com/go-chat-bot/plugins/lula"
 	_ "github.com/go-chat-bot/plugins/megasena"
 	_ "github.com/go-chat-bot/plugins/puppet"
 	_ "github.com/go-chat-bot/plugins/treta"
