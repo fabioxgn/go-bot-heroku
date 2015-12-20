@@ -8,6 +8,7 @@ import (
 	"github.com/go-chat-bot/bot/irc"
 	"github.com/go-chat-bot/bot/slack"
 	"github.com/go-chat-bot/bot/telegram"
+	_ "github.com/go-chat-bot/plugins/9gag"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
