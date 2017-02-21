@@ -9,19 +9,19 @@
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/bot",
-			"Rev": "175cb6de58d32eb780ec6ec3a955de93985f4b84"
+			"Rev": "e614e1268abc689a13365204f83e2da8f436db50"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/bot/irc",
-			"Rev": "175cb6de58d32eb780ec6ec3a955de93985f4b84"
+			"Rev": "e614e1268abc689a13365204f83e2da8f436db50"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/bot/slack",
-			"Rev": "175cb6de58d32eb780ec6ec3a955de93985f4b84"
+			"Rev": "e614e1268abc689a13365204f83e2da8f436db50"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/bot/telegram",
-			"Rev": "175cb6de58d32eb780ec6ec3a955de93985f4b84"
+			"Rev": "e614e1268abc689a13365204f83e2da8f436db50"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/cnpj",
@@ -105,21 +105,21 @@
 		},
 		{
 			"ImportPath": "github.com/martinusso/go-docs/cnpj",
-			"Rev": "e2b317e4e709cd934741d48d3c70fecacdd865e7"
+			"Rev": "81905d575a58d3c6c690c32da2e430411c5de145"
 		},
 		{
 			"ImportPath": "github.com/martinusso/go-docs/cpf",
-			"Rev": "e2b317e4e709cd934741d48d3c70fecacdd865e7"
+			"Rev": "81905d575a58d3c6c690c32da2e430411c5de145"
 		},
 		{
 			"ImportPath": "github.com/mattn/go-shellwords",
-			"Comment": "v1.0.0-1-g525bede",
-			"Rev": "525bedee691b5a8df547cb5cf9f86b7fb1883e24"
+			"Comment": "v1.0.2",
+			"Rev": "005a0944d84452842197c2108bd9168ced206f78"
 		},
 		{
 			"ImportPath": "github.com/nlopes/slack",
-			"Comment": "v0.0.1-135-gd2250d0",
-			"Rev": "d2250d0b977670083c023c7a45e1ba11fd382ba2"
+			"Comment": "v0.0.1-176-g6519657",
+			"Rev": "6519657c021b7add19c4ef48220140cca0b1657b"
 		},
 		{
 			"ImportPath": "github.com/robfig/cron",
@@ -133,8 +133,8 @@
 		},
 		{
 			"ImportPath": "github.com/thoj/go-ircevent",
-			"Comment": "0.1-2-g3078a03",
-			"Rev": "3078a030efc82cfa40c503bf4059c1cdeb0c001d"
+			"Comment": "0.1-17-g1b0acb5",
+			"Rev": "1b0acb5f2f1b615cfbd4b9f91abb14cb39a18769"
 		},
 		{
 			"ImportPath": "golang.org/x/net/websocket",

@@ -19,8 +19,9 @@ const (
 // Valid validates the CNPJ returning a boolean
 func Valid(cnpj string) bool {
 	isValid, err := AssertValid(cnpj)
+
 	if err != nil {
-		return false
+		return true
 	}
 	return isValid
 }
