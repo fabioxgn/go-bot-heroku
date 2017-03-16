@@ -25,27 +25,27 @@
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/cnpj",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/cotacao",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/cpf",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/dilma",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/lula",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins-br/megasena",
-			"Rev": "95ef6f76738fe673ae0fd542dea01791b81a22a8"
+			"Rev": "eb41b30907dc280493054e43961fac6892184e3a"
 		},
 		{
 			"ImportPath": "github.com/go-chat-bot/plugins/9gag",
