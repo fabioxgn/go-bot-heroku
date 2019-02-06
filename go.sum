@@ -10,6 +10,8 @@ github.com/go-chat-bot/plugins v0.0.0-20181006225249-2a178bda25d0 h1:aGmWSaio76c
 github.com/go-chat-bot/plugins v0.0.0-20181006225249-2a178bda25d0/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
 github.com/go-chat-bot/plugins-br v0.0.0-20170316122923-eb41b30907dc h1:v/poG4Y4O/z1cUm2cWxiIkFFgRsT3Fe1u1A33evx89g=
 github.com/go-chat-bot/plugins-br v0.0.0-20170316122923-eb41b30907dc/go.mod h1:KU0Ieo/D/HBwPY6n3tLWanM5GemW6iWXdbgm96qRW2Q=
+github.com/go-chat-bot/plugins-br v0.0.0-20190206221227-d16a45e65523 h1:PGd+BnBR/AmvXnfkXbNrUZIfs0B14q2yc/MTgXYsEaU=
+github.com/go-chat-bot/plugins-br v0.0.0-20190206221227-d16a45e65523/go.mod h1:KU0Ieo/D/HBwPY6n3tLWanM5GemW6iWXdbgm96qRW2Q=
 github.com/google/go-querystring v1.0.0/go.mod h1:odCYkC5MyYFN7vkCjXpyrEuKhc/BUO6wN/zVPAxq5ck=
 github.com/gorilla/websocket v1.4.0 h1:WDFjx/TMzVgy9VdMMQi2K2Emtwi2QcUQsztZ/zLaH/Q=
 github.com/gorilla/websocket v1.4.0/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
