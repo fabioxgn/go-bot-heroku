@@ -11,6 +11,7 @@ import (
 	_ "github.com/go-chat-bot/plugins-br/dilma"
 	_ "github.com/go-chat-bot/plugins-br/lula"
 	_ "github.com/go-chat-bot/plugins-br/megasena"
+	_ "github.com/go-chat-bot/plugins-br/gloria_a_deus"
 	_ "github.com/go-chat-bot/plugins/9gag"
 	_ "github.com/go-chat-bot/plugins/catfacts"
 	_ "github.com/go-chat-bot/plugins/catgif"
