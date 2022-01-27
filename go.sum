@@ -57,6 +57,7 @@ github.com/Jeffail/gabs v1.4.0/go.mod h1:6xMvQMK4k33lb7GUUpaAPh6nKMmemQeg5d4gn7/
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/andygrunwald/go-jira v1.5.0/go.mod h1:yNYQrX3nGSrVdcVsM2mWz2pm7tTeDtYfRyVEkc3VUiY=
 github.com/andygrunwald/go-jira v1.14.0/go.mod h1:KMo2f4DgMZA1C9FdImuLc04x4WQhn5derQpnsuBFgqE=
+github.com/andygrunwald/go-jira v1.14.1-0.20220125145100-3555edb9bbda/go.mod h1:m62VSchfJSdD0PNkndBdbclfKRPGbKYkPhDN3Spm90I=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/beevik/guid v0.0.0-20170504223318-d0ea8faecee0 h1:oLd/YLOTOgA4D4aAUhIE8vhl/LAP1ZJrj0mDQpl7GB8=
 github.com/beevik/guid v0.0.0-20170504223318-d0ea8faecee0/go.mod h1:XzXWuOd1wJ63MtICHh5+PnvCuxsB/d58T8TswEhI/9I=
@@ -98,6 +99,8 @@ github.com/go-chat-bot/bot v0.0.0-20201004141219-763f9eeac7d5 h1:VZFX5GZaOjuprEv
 github.com/go-chat-bot/bot v0.0.0-20201004141219-763f9eeac7d5/go.mod h1:FE2F44LS6MDYyTPljYoAzzJ3yzsy4xg3Qfvc08UrJBE=
 github.com/go-chat-bot/bot v0.0.0-20220127121339-9f4d3ace4f0b h1:0x9W+NLuP0YXG4Fng+jtNJj/k7VFrHtDqpRlo1FhkqM=
 github.com/go-chat-bot/bot v0.0.0-20220127121339-9f4d3ace4f0b/go.mod h1:wZdNsy6YseIHmjrsx+wC3zzbAigZx6dN5qPPWRTpPjI=
+github.com/go-chat-bot/bot v0.0.0-20220127123339-71bc1bfb492c h1:zz48X2iHXoCDdV9nszvs/OlB0OmxPO4J6efB+y6Dh/4=
+github.com/go-chat-bot/bot v0.0.0-20220127123339-71bc1bfb492c/go.mod h1:ySYBhOJZcJRfgZSn585Dc3aWbb2ESdOBnnAT1pWtkFA=
 github.com/go-chat-bot/plugins v0.0.0-20181006134258-491b3f9878d6/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
 github.com/go-chat-bot/plugins v0.0.0-20210423135617-90af38949890 h1:HOa74NO1AF9Gn+K0rQInzzol0ja9NCTkX0xlfmG8PkU=
 github.com/go-chat-bot/plugins v0.0.0-20210423135617-90af38949890/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
@@ -114,6 +117,7 @@ github.com/go-test/deep v1.0.4 h1:u2CU3YKy9I2pmu9pX0eq50wCgjfGIt539SqR7FbHiho=
 github.com/go-test/deep v1.0.4/go.mod h1:wGDj63lr65AM2AQyKZd/NYHGb0R+1RLqB8NKt3aSFNA=
 github.com/golang-jwt/jwt v3.2.1+incompatible/go.mod h1:8pz2t5EyA70fFQQSrl6XZXzqecmYZeUEB8OUGHkxJ+I=
 github.com/golang-jwt/jwt v3.2.2+incompatible/go.mod h1:8pz2t5EyA70fFQQSrl6XZXzqecmYZeUEB8OUGHkxJ+I=
+github.com/golang-jwt/jwt/v4 v4.2.0/go.mod h1:/xlHOz8bRuivTWchD4jCa+NbatV+wEUSzwAxVc6locg=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6/go.mod h1:cIg4eruTrX1D+g88fzRXU5OdNfaM+9IcxsU14FzY7Hc=
 github.com/golang/groupcache v0.0.0-20191227052852-215e87163ea7/go.mod h1:cIg4eruTrX1D+g88fzRXU5OdNfaM+9IcxsU14FzY7Hc=
